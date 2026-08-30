@@ -8,7 +8,7 @@
 - Android 包名：`com.butuoyan.toolbox`
 - 最低系统：Android 7.0（API 24）
 - APK：在右侧 Releases 中下载 `butuoyan-v0.3.1-android.apk`
-- APK SHA-256：`A08A02DA34F23D1E3F4C960774D2169E087CD0703F1B7E3FBC562371BD77095B`
+- APK SHA-256：`32D3B927D78954E40EE56FF48E3A2CB19E5FBE7F3BC482DEA8A7810C3C7756CA`
 - 签名证书 SHA-256：`CCE69E0DB63AE2D44825DAC92C1301D6DDB389A4EA9341D090A34FDBF6A79FB0`
 
 ## 安装说明
@@ -23,9 +23,11 @@
 
 应用会同时尝试以下公开清单检查 Android 新版本，任一线路成功即可继续：
 
-`https://cdn.jsdelivr.net/gh/faine-oss/butuoyan-app@main/update.json`
+`https://faine-oss.github.io/butuoyan-app/update.json`
 
 `https://raw.githubusercontent.com/faine-oss/butuoyan-app/main/update.json`
+
+主线路使用本仓库的 GitHub Pages，备用线路直接读取 GitHub Raw；二者使用不同的公开入口。
 
 更新检查只读取公开版本信息，不上传任务、计划或五分钟启动记录。APK 下载完成后仍由 Android 核对应用签名并要求用户确认安装。
 

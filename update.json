@@ -5,14 +5,14 @@
   "versionName": "0.3.1",
   "title": "更新连接稳定性修复",
   "notes": [
-    "增加 jsDelivr CDN 主更新线路，改善中国大陆与 IPv6 网络连接",
+    "增加 GitHub Pages 主更新线路，改善中国大陆与 IPv6 网络连接",
     "GitHub Raw 保留为备用线路，两条线路会并发检查并自动切换",
     "优化超时与失败提示，不影响本地任务、计划和启动记录"
   ],
-  "publishedAt": "2026-08-31T00:20:45+08:00",
+  "publishedAt": "2026-08-31T00:29:45+08:00",
   "downloadUrl": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.3.1/butuoyan-v0.3.1-android.apk",
   "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.3.1",
-  "sha256": "A08A02DA34F23D1E3F4C960774D2169E087CD0703F1B7E3FBC562371BD77095B",
+  "sha256": "32D3B927D78954E40EE56FF48E3A2CB19E5FBE7F3BC482DEA8A7810C3C7756CA",
   "mandatory": false,
   "minimumSupportedVersionCode": 3
 }
