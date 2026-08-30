@@ -4,11 +4,11 @@
 
 ## 当前版本
 
-- 版本：V0.3.0（Build 3）
+- 版本：V0.3.1（Build 4）
 - Android 包名：`com.butuoyan.toolbox`
 - 最低系统：Android 7.0（API 24）
-- APK：在右侧 Releases 中下载 `butuoyan-v0.3.0-android.apk`
-- APK SHA-256：`3546BC881DDC548518EA20796A83634AE8CF8D043E97E95A3A4C5FF68B407BB1`
+- APK：在右侧 Releases 中下载 `butuoyan-v0.3.1-android.apk`
+- APK SHA-256：`A08A02DA34F23D1E3F4C960774D2169E087CD0703F1B7E3FBC562371BD77095B`
 - 签名证书 SHA-256：`CCE69E0DB63AE2D44825DAC92C1301D6DDB389A4EA9341D090A34FDBF6A79FB0`
 
 ## 安装说明
@@ -21,7 +21,9 @@
 
 ## 应用内更新
 
-应用读取以下公开清单检查 Android 新版本：
+应用会同时尝试以下公开清单检查 Android 新版本，任一线路成功即可继续：
+
+`https://cdn.jsdelivr.net/gh/faine-oss/butuoyan-app@main/update.json`
 
 `https://raw.githubusercontent.com/faine-oss/butuoyan-app/main/update.json`
 
@@ -32,7 +34,7 @@
 在 Windows PowerShell 中可以运行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath ".\butuoyan-v0.3.0-android.apk"
+Get-FileHash -Algorithm SHA256 -LiteralPath ".\butuoyan-v0.3.1-android.apk"
 ```
 
 计算结果应与本页以及 `update.json` 中公布的 SHA-256 完全一致。
