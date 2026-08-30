@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
   "channel": "android",
-  "versionCode": 4,
-  "versionName": "0.3.1",
-  "title": "更新连接稳定性修复",
+  "versionCode": 5,
+  "versionName": "0.4.0",
+  "title": "基础体验与数据安全升级",
   "notes": [
-    "增加 GitHub Pages 主更新线路，改善中国大陆与 IPv6 网络连接",
-    "GitHub Raw 保留为备用线路，两条线路会并发检查并自动切换",
-    "优化超时与失败提示，不影响本地任务、计划和启动记录"
+    "新增完整本地数据备份、文件预检与安全恢复",
+    "新增全局快速添加任务和三步首次使用引导",
+    "统一弹窗、反馈状态和移动端布局",
+    "无需登录，任务、计划和启动记录不会自动上传"
   ],
-  "publishedAt": "2026-08-31T00:29:45+08:00",
-  "downloadUrl": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.3.1/butuoyan-v0.3.1-android.apk",
-  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.3.1",
-  "sha256": "32D3B927D78954E40EE56FF48E3A2CB19E5FBE7F3BC482DEA8A7810C3C7756CA",
+  "publishedAt": "2026-08-31T01:46:12+08:00",
+  "downloadUrl": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.4.0/butuoyan-v0.4.0-android.apk",
+  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.4.0",
+  "sha256": "508A3741567403F4634403DAF753310E1F65D8F695E69F3A2AA6FBC3C20F84A3",
   "mandatory": false,
-  "minimumSupportedVersionCode": 3
+  "minimumSupportedVersionCode": 4
 }

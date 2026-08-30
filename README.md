@@ -4,11 +4,11 @@
 
 ## 当前版本
 
-- 版本：V0.3.1（Build 4）
+- 版本：V0.4.0（Build 5）
 - Android 包名：`com.butuoyan.toolbox`
 - 最低系统：Android 7.0（API 24）
-- APK：在右侧 Releases 中下载 `butuoyan-v0.3.1-android.apk`
-- APK SHA-256：`32D3B927D78954E40EE56FF48E3A2CB19E5FBE7F3BC482DEA8A7810C3C7756CA`
+- APK：在右侧 Releases 中下载 `butuoyan-v0.4.0-android.apk`
+- APK SHA-256：`508A3741567403F4634403DAF753310E1F65D8F695E69F3A2AA6FBC3C20F84A3`
 - 签名证书 SHA-256：`CCE69E0DB63AE2D44825DAC92C1301D6DDB389A4EA9341D090A34FDBF6A79FB0`
 
 ## 安装说明
@@ -17,7 +17,9 @@
 2. 在 Android 设置中允许浏览器或文件管理器“安装未知应用”。
 3. 打开 APK 并按系统提示确认安装。
 
-早期 V0.2 本地测试包使用 Android 调试证书，与 V0.3 正式证书不同，不能直接覆盖安装。首次切换到正式版前请确认测试版中没有需要保留的数据，然后卸载测试版再安装正式版。V0.3 及后续正式版会保持同一签名，可正常覆盖更新。
+早期 V0.2 本地测试包使用 Android 调试证书，与 V0.3 之后的正式证书不同，不能直接覆盖安装。首次切换到正式版前请确认测试版中没有需要保留的数据，然后卸载测试版再安装正式版。V0.3、V0.3.1 和 V0.4.0 使用同一签名，可以正常覆盖更新并保留本地数据。
+
+V0.4.0 新增完整本地数据备份、文件预检与安全恢复、全局快速添加任务、首次使用引导和本地数据版本管理。安装后建议打开“我的 → 数据安全与备份”，先导出一份完整备份。
 
 ## 应用内更新
 
@@ -36,7 +38,7 @@
 在 Windows PowerShell 中可以运行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath ".\butuoyan-v0.3.1-android.apk"
+Get-FileHash -Algorithm SHA256 -LiteralPath ".\butuoyan-v0.4.0-android.apk"
 ```
 
 计算结果应与本页以及 `update.json` 中公布的 SHA-256 完全一致。
