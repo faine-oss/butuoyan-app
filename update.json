@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "channel": "android",
+  "versionCode": 3,
+  "versionName": "0.3.0",
+  "title": "首个正式签名测试版",
+  "notes": [
+    "增加应用内更新中心和安全版本检查",
+    "加入正式 Android 签名，建立后续覆盖更新链",
+    "保留 DDL 急救、开工五分钟、多日计划书和本地导出功能"
+  ],
+  "publishedAt": "2026-08-30T23:45:42+08:00",
+  "downloadUrl": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.3.0/butuoyan-v0.3.0-android.apk",
+  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.3.0",
+  "sha256": "3546BC881DDC548518EA20796A83634AE8CF8D043E97E95A3A4C5FF68B407BB1",
+  "mandatory": false,
+  "minimumSupportedVersionCode": 3
+}
