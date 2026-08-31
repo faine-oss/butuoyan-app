@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
   "channel": "android",
-  "versionCode": 6,
-  "versionName": "0.4.1",
-  "title": "手机下载线路升级",
+  "versionCode": 7,
+  "versionName": "0.4.2",
+  "title": "今日执行中心与任务联动升级",
   "notes": [
-    "手机主线路改为 GitHub Pages 直接下载 APK",
-    "应用内可明确选择主线路或 GitHub 备用线路",
-    "新增下载线路说明，主线路无需打开 GitHub 网页",
-    "保留 APK SHA-256 与 Android 应用签名双重校验"
+    "首页新增今日执行清单，自动汇总并去重任务、DDL 与计划书事项",
+    "DDL 拆解步骤和多日计划书任务可同步到统一任务中心",
+    "计划任务可直接开始专注，完成后双向更新任务与子任务进度",
+    "五分钟专注支持自定义时长，并保留本地备份与双线路更新"
   ],
-  "publishedAt": "2026-08-31T02:05:48+08:00",
-  "downloadUrl": "https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.4.1-android.apk",
+  "publishedAt": "2026-08-31T15:45:16+08:00",
+  "downloadUrl": "https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.4.2-android.apk",
   "downloadMirrors": [
     {
       "label": "GitHub 备用下载",
-      "url": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.4.1/butuoyan-v0.4.1-android.apk"
+      "url": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.4.2/butuoyan-v0.4.2-android.apk"
     }
   ],
-  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.4.1",
-  "sha256": "6D7B9C0C795667C6A2A3BF82FD64E12029E9FEC32992F916DF1B5CEB4FB40A6B",
+  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.4.2",
+  "sha256": "98F2A639089489E94207A0B7B6AAE9D92CC081DFF57803A7772332934E5A6592",
   "mandatory": false,
   "minimumSupportedVersionCode": 4
 }
