@@ -4,12 +4,12 @@
 
 ## 当前版本
 
-- 版本：V0.4.1（Build 6）
+- 版本：V0.4.2（Build 7）
 - Android 包名：`com.butuoyan.toolbox`
 - 最低系统：Android 7.0（API 24）
-- 手机直接下载：`https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.4.1-android.apk`
-- GitHub 备用下载：在右侧 Releases 中下载 `butuoyan-v0.4.1-android.apk`
-- APK SHA-256：`6D7B9C0C795667C6A2A3BF82FD64E12029E9FEC32992F916DF1B5CEB4FB40A6B`
+- 手机直接下载：`https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.4.2-android.apk`
+- GitHub 备用下载：在右侧 Releases 中下载 `butuoyan-v0.4.2-android.apk`
+- APK SHA-256：`98F2A639089489E94207A0B7B6AAE9D92CC081DFF57803A7772332934E5A6592`
 - 签名证书 SHA-256：`CCE69E0DB63AE2D44825DAC92C1301D6DDB389A4EA9341D090A34FDBF6A79FB0`
 
 ## 安装说明
@@ -18,9 +18,9 @@
 2. 在 Android 设置中允许浏览器或文件管理器“安装未知应用”。
 3. 打开 APK 并按系统提示确认安装。
 
-早期 V0.2 本地测试包使用 Android 调试证书，与 V0.3 之后的正式证书不同，不能直接覆盖安装。首次切换到正式版前请确认测试版中没有需要保留的数据，然后卸载测试版再安装正式版。V0.3、V0.3.1、V0.4.0 和 V0.4.1 使用同一签名，可以正常覆盖更新并保留本地数据。
+早期 V0.2 本地测试包使用 Android 调试证书，与 V0.3 之后的正式证书不同，不能直接覆盖安装。首次切换到正式版前请确认测试版中没有需要保留的数据，然后卸载测试版再安装正式版。V0.3、V0.3.1、V0.4.0、V0.4.1 和 V0.4.2 使用同一签名，可以正常覆盖更新并保留本地数据。
 
-V0.4.1 将手机主下载线路切换为 GitHub Pages 直接 APK，并保留 GitHub Release 备用线路。安装后建议打开“我的 → 数据安全与备份”，先导出一份完整备份。
+V0.4.2 新增今日执行中心，并打通任务中心、DDL 急救步骤、多日计划书和五分钟专注的状态联动。安装后建议打开“我的 → 数据安全与备份”，先导出一份完整备份。
 
 ## 应用内更新
 
@@ -39,7 +39,7 @@ V0.4.1 将手机主下载线路切换为 GitHub Pages 直接 APK，并保留 Git
 在 Windows PowerShell 中可以运行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath ".\butuoyan-v0.4.1-android.apk"
+Get-FileHash -Algorithm SHA256 -LiteralPath ".\butuoyan-v0.4.2-android.apk"
 ```
 
 计算结果应与本页以及 `update.json` 中公布的 SHA-256 完全一致。
