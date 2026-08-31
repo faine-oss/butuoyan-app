@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
   "channel": "android",
-  "versionCode": 7,
-  "versionName": "0.4.2",
-  "title": "今日执行中心与任务联动升级",
+  "versionCode": 8,
+  "versionName": "0.5.0",
+  "title": "整体交互与移动体验升级",
   "notes": [
-    "首页新增今日执行清单，自动汇总并去重任务、DDL 与计划书事项",
-    "DDL 拆解步骤和多日计划书任务可同步到统一任务中心",
-    "计划任务可直接开始专注，完成后双向更新任务与子任务进度",
-    "五分钟专注支持自定义时长，并保留本地备份与双线路更新"
+    "首页和任务中心改为更清晰的首次使用与快速记录路径",
+    "DDL 和五分钟启动在生成结果后自动突出当前动作",
+    "计划书升级为填写、样式、预览导出三步流程",
+    "优化手机端导航、触控区域、主题与数据设置"
   ],
-  "publishedAt": "2026-08-31T15:45:16+08:00",
-  "downloadUrl": "https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.4.2-android.apk",
+  "publishedAt": "2026-08-31T19:36:45+08:00",
+  "downloadUrl": "https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.5.0-android.apk",
   "downloadMirrors": [
     {
       "label": "GitHub 备用下载",
-      "url": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.4.2/butuoyan-v0.4.2-android.apk"
+      "url": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.5.0/butuoyan-v0.5.0-android.apk"
     }
   ],
-  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.4.2",
-  "sha256": "98F2A639089489E94207A0B7B6AAE9D92CC081DFF57803A7772332934E5A6592",
+  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.5.0",
+  "sha256": "04546766F530874D8D63FCD830673BD2BAA60413488E77C83CCF61CFB04AB1E9",
   "mandatory": false,
   "minimumSupportedVersionCode": 4
 }
