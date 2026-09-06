@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
   "channel": "android",
-  "versionCode": 8,
-  "versionName": "0.5.0",
-  "title": "整体交互与移动体验升级",
+  "versionCode": 9,
+  "versionName": "0.5.1",
+  "title": "任务流程与多日计划书优化",
   "notes": [
-    "首页和任务中心改为更清晰的首次使用与快速记录路径",
-    "DDL 和五分钟启动在生成结果后自动突出当前动作",
-    "计划书升级为填写、样式、预览导出三步流程",
-    "优化手机端导航、触控区域、主题与数据设置"
+    "首页、任务、DDL 与启动模块连接为连续任务流程",
+    "修复首页快速添加内容可能超出手机屏幕的问题",
+    "精修主题、动画与移动端视觉层级",
+    "重新设计四天与九天计划书的任务密度和裁剪布局"
   ],
-  "publishedAt": "2026-08-31T19:36:45+08:00",
-  "downloadUrl": "https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.5.0-android.apk",
+  "publishedAt": "2026-09-06T18:03:23+08:00",
+  "downloadUrl": "https://faine-oss.github.io/butuoyan-app/downloads/butuoyan-v0.5.1-android.apk",
   "downloadMirrors": [
     {
       "label": "GitHub 备用下载",
-      "url": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.5.0/butuoyan-v0.5.0-android.apk"
+      "url": "https://github.com/faine-oss/butuoyan-app/releases/download/v0.5.1/butuoyan-v0.5.1-android.apk"
     }
   ],
-  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.5.0",
-  "sha256": "04546766F530874D8D63FCD830673BD2BAA60413488E77C83CCF61CFB04AB1E9",
+  "releasePageUrl": "https://github.com/faine-oss/butuoyan-app/releases/tag/v0.5.1",
+  "sha256": "EC7F7D94B56610C0EF8B0F3375C471452DA5A5D257B829ED438356A958C3111D",
   "mandatory": false,
   "minimumSupportedVersionCode": 4
 }
